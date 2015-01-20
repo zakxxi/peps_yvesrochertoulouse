@@ -5,6 +5,11 @@
 
 /* Boostrap Custom CSS
 *********************************/
+body {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
+}
+
 
 .navbar
 {
