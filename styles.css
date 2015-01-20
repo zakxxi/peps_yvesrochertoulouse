@@ -50,11 +50,16 @@ h3 {
     color: #624638;
 }
 
+h4 {
+    color: #93a445;
+}
 .navbar
 {
     min-height: 95px;
     margin-bottom: 0;
     background-color: #93a445;
+    border-radius: 0;
+    border: none;
 }
 
 .navbar-nav > li > a
@@ -235,6 +240,12 @@ hr.big
 }
 #homeFooter h4 {
     margin: 0;
+}
+
+#homeFooter p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 
 #homeFooter img
