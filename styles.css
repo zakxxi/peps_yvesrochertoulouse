@@ -1,0 +1,80 @@
+/* Fonts
+*********************************/
+
+/* Boostrap Custom CSS
+*********************************/
+
+.navbar
+{
+    min-height: 95px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding:0;
+}
+
+.navbar-nav > li > a
+{
+	margin-top:25px;
+}
+
+hr {
+	border-top: 1px solid #000;
+
+}
+
+/* Carousel Custom CSS
+*********************************/
+.carousel.slide
+{
+    max-width: 2000px;
+    overflow: hidden;
+}
+
+.carousel-inner
+{
+    width: 2000px;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+/* Utilities CSS
+*********************************/
+
+.resetPM
+{
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.resetP
+{
+    padding: 0!important;
+}
+
+.resetM
+{
+    margin: 0!important;
+}
+
+
+
+hr.big {
+	border-top: 3px solid #000;
+}
+
+
+/* Custom CSS
+*********************************/
+
+#btnRDV {
+	margin-top:25px;	
+}
+
+#banner {
+	height: 50px;
+}
+
+/* MediaQueries
+*********************************/
