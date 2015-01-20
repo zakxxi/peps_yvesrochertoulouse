@@ -2,14 +2,30 @@
 
 /* Fonts
 *********************************/
-
-/* Boostrap Custom CSS
-*********************************/
-body {
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+@font-face {
+    font-family: 'coolveticaregular';
+    src: url('fonts/coolvetica_rg-webfont.eot');
+    src: url('fonts/coolvetica_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/coolvetica_rg-webfont.woff2') format('woff2'),
+         url('fonts/coolvetica_rg-webfont.woff') format('woff'),
+         url('fonts/coolvetica_rg-webfont.ttf') format('truetype'),
+         url('fonts/coolvetica_rg-webfont.svg#coolveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
+/* Boostrap Custom CSS
+*********************************/
+body
+{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
 
+h1, h2
+{
+    font-family: 'coolveticaregular';
+    text-transform: uppercase;
+}
 
 .navbar
 {
@@ -46,7 +62,6 @@ hr
 
 /* Carousel Custom CSS
 *********************************/
-
 .carousel.slide
 {
     max-width: 2000px;
@@ -62,7 +77,6 @@ hr
 
 /* Utilities CSS
 *********************************/
-
 .resetPM
 {
     padding: 0!important;
@@ -86,7 +100,6 @@ hr.big
 
 /* Custom CSS
 *********************************/
-
 #homeBanner
 {
     height: 50px;
@@ -156,7 +169,6 @@ footer p
 
 /* MediaQueries
 *********************************/
-
 @media (min-width:1200px)
 {
     #logoTop
@@ -205,7 +217,6 @@ footer p
 	#homeFooter img {
 		margin-top: 20px;
 	}
-
 }
 
 
