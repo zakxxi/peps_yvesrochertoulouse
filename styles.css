@@ -25,21 +25,52 @@ h1, h2
 {
     font-family: 'coolveticaregular';
     text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    color: #624638;
 }
 
 .navbar
 {
     min-height: 95px;
     margin-bottom: 0;
+    background-color: #93a445;
 }
 
 .navbar-nav > li > a
 {
     margin-top: 40px;
     padding: 0 10px 0 10px;
-    border-left: 1px solid red;
+    border-left: 1px solid #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li.active > a:hover, .navbar-default .navbar-nav > li.active > a:focus 
+{
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: transparent;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li.active  > a {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+}
 .navbar-nav > li:first-child > a
 {
     border-left: none;
@@ -57,8 +88,52 @@ h1, h2
 
 hr
 {
-    border-top: 1px solid;
+    border-top: 1px solid #dadada;
 }
+.btn {
+text-transform: uppercase;
+border-radius: 0;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #624638;
+border-color: #624638;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #624638;
+border-color: #624638;
+text-decoration: underline;
+}
+
+.btn-success {
+color: #fff;
+background-color: #93a445;
+border-color: #93a445;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+color: #fff;
+background-color: #93a445;
+border-color: #93a445;
+text-decoration: underline;
+}
+
+.btn-info {
+color: #e21b5e;
+background-color: #dadada;
+border-color: #dadada;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+color: #e21b5e;
+background-color: #dadada;
+border-color: #dadada;
+text-decoration: underline;
+}
+
 
 /* Carousel Custom CSS
 *********************************/
@@ -95,7 +170,7 @@ hr
 
 hr.big
 {
-    border-top: 2px solid;
+    border-top: 2px solid #dadada;
 }
 
 /* Custom CSS
@@ -103,10 +178,46 @@ hr.big
 #homeBanner
 {
     height: 50px;
+    background-color: #624638;
+    color: #ffffff;
+    text-transform: uppercase;
 }
+#homeBanner
+{
+    height: 50px;
+    background-color: #624638;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#homeBanner p
+{
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
 #pageBanner
 {
     height: 70px;
+    background-color: #dadada;
+    margin-bottom: 30px;
+}
+
+#pageBanner h1
+{
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px
+}
+
+#homeOffers p {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#homeOffers hr.big {
+    border-top: 2px solid #624638;
+
 }
 
 #homeFooter h2 {
@@ -129,11 +240,15 @@ footer
 {
     height: 50px;
     margin-top: 25px;
+    background-color: #93a445;
+    color: #ffffff;
+
 }
 
 footer p
 {
     margin-top: 15px;
+    font-size: 10px;
 }
 
 #btnRDV
@@ -192,6 +307,12 @@ footer p
     {
         margin-left: 40px;
     }
+
+    #btnRDV
+    {
+        max-width: 130px;
+        margin-top: 32px;
+    }
 }
 
 @media (max-width:991px)
@@ -237,7 +358,6 @@ footer p
     {
         max-width: 155px;
         margin-top: 0;
-        margin-left: 15px;
     }
     footer p
     {
