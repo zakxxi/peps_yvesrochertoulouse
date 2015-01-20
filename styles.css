@@ -1,0 +1,397 @@
+
+
+/* Fonts
+*********************************/
+@font-face {
+    font-family: 'coolveticaregular';
+    src: url('fonts/coolvetica_rg-webfont.eot');
+    src: url('fonts/coolvetica_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/coolvetica_rg-webfont.woff2') format('woff2'),
+         url('fonts/coolvetica_rg-webfont.woff') format('woff'),
+         url('fonts/coolvetica_rg-webfont.ttf') format('truetype'),
+         url('fonts/coolvetica_rg-webfont.svg#coolveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Boostrap Custom CSS
+*********************************/
+body
+{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+color: #93a445;
+text-decoration: none;
+}
+
+a:hover, a:focus {
+color: #93a445;
+text-decoration: underline;
+}
+
+h1, h2
+{
+    font-family: 'coolveticaregular';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    color: #624638;
+}
+
+h4 {
+    color: #93a445;
+}
+.navbar
+{
+    min-height: 95px;
+    margin-bottom: 0;
+    background-color: #93a445;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-nav > li > a
+{
+    margin-top: 40px;
+    padding: 0 10px 0 10px;
+    border-left: 1px solid #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li.active > a:hover, .navbar-default .navbar-nav > li.active > a:focus 
+{
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li.active  > a {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.navbar-nav > li:first-child > a
+{
+    border-left: none;
+}
+
+.navbar-header
+{
+    min-height: 95px;
+}
+
+.navbar-brand
+{
+    padding: 0;
+}
+
+hr
+{
+    border-top: 1px solid #dadada;
+}
+.btn {
+text-transform: uppercase;
+border-radius: 0;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #624638;
+border-color: #624638;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #624638;
+border-color: #624638;
+text-decoration: underline;
+}
+
+.btn-success {
+color: #fff;
+background-color: #93a445;
+border-color: #93a445;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+color: #fff;
+background-color: #93a445;
+border-color: #93a445;
+text-decoration: underline;
+}
+
+.btn-info {
+color: #e21b5e;
+background-color: #dadada;
+border-color: #dadada;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+color: #e21b5e;
+background-color: #dadada;
+border-color: #dadada;
+text-decoration: underline;
+}
+
+
+/* Carousel Custom CSS
+*********************************/
+.carousel.slide
+{
+    max-width: 2000px;
+    overflow: hidden;
+}
+
+.carousel-inner
+{
+    width: 2000px;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+/* Utilities CSS
+*********************************/
+.resetPM
+{
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.resetP
+{
+    padding: 0!important;
+}
+
+.resetM
+{
+    margin: 0!important;
+}
+
+hr.big
+{
+    border-top: 2px solid #dadada;
+}
+
+/* Custom CSS
+*********************************/
+#homeBanner
+{
+    height: 50px;
+    background-color: #624638;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#homeBanner
+{
+    height: 50px;
+    background-color: #624638;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#homeBanner p
+{
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
+#pageBanner
+{
+    height: 70px;
+    background-color: #dadada;
+    margin-bottom: 30px;
+}
+
+#pageBanner h1
+{
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px
+}
+
+#homeOffers p {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#homeOffers hr.big {
+    border-top: 2px solid #624638;
+
+}
+
+#homeFooter h2 {
+    margin: 0;
+    display: inline-block;
+}
+#homeFooter h4 {
+    margin: 0;
+}
+
+#homeFooter p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#homeFooter img
+{
+    margin-bottom: 15px;
+}
+#contactForm
+{
+    margin-top: 20px;
+}
+footer
+{
+    height: 50px;
+    margin-top: 25px;
+    background-color: #93a445;
+    color: #ffffff;
+
+}
+
+footer p
+{
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+footer a {
+color: #ffffff;
+text-decoration: none;
+}
+
+footer a:hover, a:focus {
+color: #ffffff;
+text-decoration: underline;
+}
+#btnRDV
+{
+    max-width: 155px;
+    margin-top: 25px;
+}
+
+.row form input {
+	margin-bottom: 15px;
+}
+.row form label {
+	margin-top: 5px;
+}
+.row form .btn {
+	margin-top: 15px;
+}
+
+.articleList {
+	margin-bottom: 30px;
+}
+
+.articleList h3 {
+	display: inline-block;
+	margin-top: 0;
+}
+.articleList p {
+	margin-top: 15px;
+}
+.articleList .btn-success {
+	margin-left: 15px;
+}
+
+/* MediaQueries
+*********************************/
+@media (min-width:1200px)
+{
+    #logoTop
+    {
+        max-width: 380px;
+    }
+    .navbar-nav
+    {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:1199px)
+{
+    #logoTop
+    {
+        max-width: 330px;
+        margin-top: 5px;
+    }
+    .navbar-nav
+    {
+        margin-left: 40px;
+    }
+
+    #btnRDV
+    {
+        max-width: 130px;
+        margin-top: 32px;
+    }
+}
+
+@media (max-width:991px)
+{
+    #logoTop
+    {
+        max-width: 200px;
+        margin-top: 25px;
+    }
+    .navbar-nav
+    {
+        margin-left: 0;
+    }
+    #btnRDV
+    {
+        max-width: 130px;
+        margin-top: 32px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+	#homeFooter img {
+		margin-top: 20px;
+	}
+}
+
+
+@media (max-width:767px)
+{
+    #logoTop
+    {
+        max-width: 300px;
+        margin-top: 10px;
+    }
+    .navbar-nav > li > a
+    {
+        margin-top: 20px;
+        padding: 0 20px 0 0;
+        border-left: none;
+    }
+    #btnRDV
+    {
+        max-width: 155px;
+        margin-top: 0;
+    }
+    footer p
+    {
+        text-align: center !important;
+    }
+}
+
+
