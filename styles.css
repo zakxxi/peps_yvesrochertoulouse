@@ -76,7 +76,7 @@ hr
 
 hr.big
 {
-    border-top: 3px solid;
+    border-top: 2px solid;
 }
 
 /* Custom CSS
@@ -85,6 +85,10 @@ hr.big
 #homeBanner
 {
     height: 50px;
+}
+#pageBanner
+{
+    height: 70px;
 }
 
 #homeFooter h2 {
@@ -99,7 +103,10 @@ hr.big
 {
     margin-bottom: 15px;
 }
-
+#contactForm
+{
+    margin-top: 20px;
+}
 footer
 {
     height: 50px;
@@ -115,6 +122,16 @@ footer p
 {
     max-width: 155px;
     margin-top: 25px;
+}
+
+.row form input {
+	margin-bottom: 15px;
+}
+.row form label {
+	margin-top: 5px;
+}
+.row form .btn {
+	margin-top: 15px;
 }
 
 /* MediaQueries
