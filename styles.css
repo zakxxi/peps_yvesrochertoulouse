@@ -13,10 +13,16 @@
 }
 
 .navbar-nav > li > a
-    {
-        margin-top: 40px;
-        padding: 0 0 0 20px;
-    }
+{
+    margin-top: 40px;
+    padding: 0 10px 0 10px;
+    border-left: 1px solid red;
+}
+
+.navbar-nav > li:first-child > a
+{
+    border-left: none;
+}
 
 .navbar-header
 {
@@ -26,12 +32,6 @@
 .navbar-brand
 {
     padding: 0;
-}
-
-.navbar-nav > li > a
-{
-    margin-top: 40px;
-    padding: 0 0 0 20px;
 }
 
 hr
@@ -85,6 +85,19 @@ hr.big
 #homeBanner
 {
     height: 50px;
+}
+
+#homeFooter h2 {
+    margin: 0;
+    display: inline-block;
+}
+#homeFooter h4 {
+    margin: 0;
+}
+
+#homeFooter img
+{
+    margin-bottom: 15px;
 }
 
 footer
@@ -150,6 +163,15 @@ footer p
     }
 }
 
+@media (min-width:768px) and (max-width:991px)
+{
+	#homeFooter img {
+		margin-top: 20px;
+	}
+
+}
+
+
 @media (max-width:767px)
 {
     #logoTop
@@ -157,25 +179,22 @@ footer p
         max-width: 300px;
         margin-top: 10px;
     }
-
     .navbar-nav > li > a
     {
         margin-top: 20px;
-        padding: 0 0 0 20px;
+        padding: 0 20px 0 0;
+        border-left: none;
     }
-
     #btnRDV
     {
         max-width: 155px;
         margin-top: 0;
         margin-left: 15px;
-
     }
     footer p
     {
         text-align: center !important;
     }
 }
-
 
 
