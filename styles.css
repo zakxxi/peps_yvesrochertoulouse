@@ -1,3 +1,5 @@
+
+
 /* Fonts
 *********************************/
 
@@ -10,22 +12,36 @@
     margin-bottom: 0;
 }
 
-.navbar-brand {
-	padding:0;
+.navbar-nav > li > a
+    {
+        margin-top: 40px;
+        padding: 0 0 0 20px;
+    }
+
+.navbar-header
+{
+    min-height: 95px;
+}
+
+.navbar-brand
+{
+    padding: 0;
 }
 
 .navbar-nav > li > a
 {
-	margin-top:25px;
+    margin-top: 40px;
+    padding: 0 0 0 20px;
 }
 
-hr {
-	border-top: 1px solid #000;
-
+hr
+{
+    border-top: 1px solid;
 }
 
 /* Carousel Custom CSS
 *********************************/
+
 .carousel.slide
 {
     max-width: 2000px;
@@ -58,23 +74,108 @@ hr {
     margin: 0!important;
 }
 
-
-
-hr.big {
-	border-top: 3px solid #000;
+hr.big
+{
+    border-top: 3px solid;
 }
-
 
 /* Custom CSS
 *********************************/
 
-#btnRDV {
-	margin-top:25px;	
+#homeBanner
+{
+    height: 50px;
 }
 
-#banner {
-	height: 50px;
+footer
+{
+    height: 50px;
+    margin-top: 25px;
+}
+
+footer p
+{
+    margin-top: 15px;
+}
+
+#btnRDV
+{
+    max-width: 155px;
+    margin-top: 25px;
 }
 
 /* MediaQueries
 *********************************/
+
+@media (min-width:1200px)
+{
+    #logoTop
+    {
+        max-width: 380px;
+    }
+    .navbar-nav
+    {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:1199px)
+{
+    #logoTop
+    {
+        max-width: 330px;
+        margin-top: 5px;
+    }
+    .navbar-nav
+    {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:991px)
+{
+    #logoTop
+    {
+        max-width: 200px;
+        margin-top: 25px;
+    }
+    .navbar-nav
+    {
+        margin-left: 0;
+    }
+    #btnRDV
+    {
+        max-width: 130px;
+        margin-top: 32px;
+    }
+}
+
+@media (max-width:767px)
+{
+    #logoTop
+    {
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+    .navbar-nav > li > a
+    {
+        margin-top: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    #btnRDV
+    {
+        max-width: 155px;
+        margin-top: 0;
+        margin-left: 15px;
+
+    }
+    footer p
+    {
+        text-align: center !important;
+    }
+}
+
+
+
