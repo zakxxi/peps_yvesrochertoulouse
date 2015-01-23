@@ -179,6 +179,10 @@ hr
 /* Utilities CSS
 *********************************/
 
+.horizontalCenter {
+    margin: 0 auto
+}
+
 .resetPM
 {
     padding: 0!important;
