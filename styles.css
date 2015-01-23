@@ -423,6 +423,11 @@ footer a:hover, a:focus
         max-width: 130px;
         margin-top: 32px;
     }
+
+    .text-left-xs
+    {
+        text-align: left;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px)
