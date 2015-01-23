@@ -152,21 +152,6 @@ text-decoration: underline;
 }
 
 
-/* Carousel Custom CSS
-*********************************/
-.carousel.slide
-{
-    max-width: 2000px;
-    overflow: hidden;
-}
-
-.carousel-inner
-{
-    width: 2000px;
-    left: 50%;
-    margin-left: -1000px;
-}
-
 /* Utilities CSS
 *********************************/
 .resetPM
