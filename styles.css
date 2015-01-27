@@ -395,7 +395,7 @@ height: auto;
     }
     .navbar-nav
     {
-        margin-left: 80px;
+        margin-left: 30px;
     }
 }
 
@@ -403,12 +403,12 @@ height: auto;
 {
     #logoTop
     {
-        max-width: 330px;
-        margin-top: 5px;
+        max-width: 200px;
+        margin-top: 25px;
     }
     .navbar-nav
     {
-        margin-left: 40px;
+        margin-left: 0px;
     }
     #btnRDV
     {
@@ -424,14 +424,17 @@ height: auto;
         max-width: 200px;
         margin-top: 25px;
     }
+
     .navbar-nav
     {
-        margin-left: 0;
+    margin-left: 0;
+    font-size: 10px;
     }
+
     #btnRDV
     {
-        max-width: 130px;
-        margin-top: 32px;
+        max-width: 100px;
+        margin-top: 35px;
     }
 
     .text-left-xs
@@ -455,17 +458,25 @@ height: auto;
         max-width: 300px;
         margin-top: 10px;
     }
+
+    #btnRDV
+    {
+        max-width: 155px;
+        margin-top: 0;
+    }
+
+    .navbar-nav
+    {
+    font-size: 12px;
+    }
+
     .navbar-nav > li > a
     {
         margin-top: 20px;
         padding: 0 20px 0 0;
         border-left: none;
     }
-    #btnRDV
-    {
-        max-width: 155px;
-        margin-top: 0;
-    }
+
     footer p
     {
         text-align: center !important;
